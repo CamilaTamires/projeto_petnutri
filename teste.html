@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .img-box img.img-hover {
+            display: none;
+        }
+
+        .img-box:hover img.img-default {
+            display: none;
+        }
+
+        .img-box:hover img.img-hover {
+            display: inherit;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="img-box">
+        <img class="img-default" src="img/Banner2.jpg" width="320px" height="320px"/>
+        <img class="img-hover" src="http://www.codeproject.com/KB/GDI-plus/ImageProcessing2/img.jpg" />
+    </div>
+</body>
+
+</html>
